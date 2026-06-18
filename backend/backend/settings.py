@@ -7,7 +7,14 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '123.123.123.123']
+ALLOWED_HOSTS = ['localhost', '157.22.252.222', '127.0.0.1', 'work.vladlesson.ru']
+
+CSRF_TRUSTED_ORIGINS = [
+    'http://127.0.0.1:8000',
+    'http://localhost:8000',
+    'https://157.22.252.222',
+    'https://work.vladlesson.ru',
+]
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
