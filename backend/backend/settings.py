@@ -7,13 +7,13 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '157.22.252.222', '127.0.0.1', 'work.vladlesson.ru']
+ALLOWED_HOSTS = ['localhost', '45.10.164.200', '127.0.0.1', 'vladlesson.hopto.org']
 
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8000',
     'http://localhost:8000',
-    'https://157.22.252.222',
-    'https://work.vladlesson.ru',
+    'http://45.10.164.200',
+    'https://vladlesson.hopto.org',
 ]
 
 INSTALLED_APPS = [
